@@ -74,6 +74,7 @@ function App() {
             className='download_btn'
             target='_blank'
             rel='noreferrer'
+            download
           >
             點這裡下載 mp3
           </a>
