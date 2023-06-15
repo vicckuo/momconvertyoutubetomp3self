@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mogra', cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(45deg, #d9afd9, #97d9e1);
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-family: 'Mogra', cursive;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.logo_img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.content_title {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content_description {
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .form_input {
+  max-width: 500px;
+  min-width: 300px;
+  height: 38px;
+  background: white;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.form .form_button {
+  width: 150px;
+  height: 70px;
+  background: #0a4d84;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  font-size: 30px;
+  background-image: url('/me.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 90px 12px;
+}
+
+.download_btn {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin-top: 10rem;
+  }
+  .content_title {
+    font-size: 40px;
+  }
+}
